@@ -301,6 +301,8 @@ router.get('/all-orders', adminMiddleware, async (req, res) => {
                 quantity: item.quantity,
                 price: item.price,
             })),
+            deliveryCharge: order.deliveryCharge,
+            handlingCharge: order.handlingCharge,
             totalAmount: order.totalAmount,
             address: order.addresses[0]?.street || 'No address provided',
             paymentMode: order.paymentMode,
