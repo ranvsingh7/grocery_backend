@@ -19,7 +19,7 @@ const uploadRoutes = require('./routes/upload');
 // CORS configuration (move up)
 const allowedOrigins = [
     "http://localhost:3000", // Local frontend
-    "https://grocery-frontend-rosy.vercel.app", // Deployed frontend
+    "https://rocketstore.ranveersingh.me", // Deployed frontend
   ];
   
 const corsOptions = {
